@@ -1,6 +1,6 @@
 'use strict';
 
-var http = require('http').Server;
+var http = require('https').Server;
 var io = require('../lib');
 var fs = require('fs');
 var join = require('path').join;
